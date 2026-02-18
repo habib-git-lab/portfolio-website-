@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="MD HABIBULLAH HAMMAD — CRYOWOLF. IT and Web Executive. System Developer. Digital Architect. BCA Student." />
+    <title>CRYOWOLF // MD HABIBULLAH HAMMAD</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Orbitron:wght@400;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- BOOT SEQUENCE OVERLAY -->
+    <div id="boot-overlay" class="boot-overlay">
+        <div class="boot-content">
+            <div class="boot-logo">CRYOWOLF</div>
+            <div class="boot-lines" id="boot-lines"></div>
+            <div class="boot-bar-wrap">
+                <div class="boot-bar" id="boot-bar"></div>
+            </div>
+            <div class="boot-status" id="boot-status">INITIALIZING SYSTEM...</div>
+        </div>
+    </div>
+
+    <!-- SCANNING LINE -->
+    <div class="scan-line"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="nav-bar" id="nav-bar">
+        <div class="nav-left">
+            <span class="nav-indicator blink"></span>
+            <span class="nav-id">SYS://CRYOWOLF</span>
+        </div>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </button>
+        <div class="nav-center" id="nav-center">
+            <a href="#identity" class="nav-link">IDENTITY</a>
+            <a href="#matrix" class="nav-link">MATRIX</a>
+            <a href="#projects" class="nav-link">MODULES</a>
+            <a href="#skills" class="nav-link">CAPABILITIES</a>
+            <a href="#contact" class="nav-link">NETWORK</a>
+        </div>
+        <div class="nav-right">
+            <span class="nav-dot active-dot"></span>
+            <span class="nav-status">ONLINE</span>
+            <span class="nav-indicator blink red"></span>
+        </div>
+    </nav>
+
+    <!-- HERO / IDENTITY PANEL -->
+    <section id="identity" class="section hero-section">
+        <div class="hero-grid-bg"></div>
+        <div class="hero-content">
+
+            <!-- Profile Image Core -->
+            <div class="profile-core-wrap">
+                <div class="profile-core">
+                    <div class="ring ring-1"></div>
+                    <div class="ring ring-2"></div>
+                    <div class="ring ring-3"></div>
+                    <div class="profile-hex">
+                        <div class="profile-inner">
+                            <span class="profile-initials">HH</span>
+                            <span class="profile-codename">CRYOWOLF</span>
+                        </div>
+                    </div>
+                    <div class="profile-glow-bloom"></div>
+                </div>
+                <div class="profile-status-bar">
+                    <span class="psb-dot blink"></span>
+                    <span class="psb-text">IDENTITY CORE — VERIFIED</span>
+                </div>
+            </div>
+
+            <!-- System Identity Panel -->
+            <div class="system-panel">
+                <div class="panel-header">
+                    <span class="panel-dot"></span>
+                    <span class="panel-dot yellow"></span>
+                    <span class="panel-dot green"></span>
+                    <span class="panel-title">SYSTEM_IDENTITY.exe</span>
+                </div>
+                <div class="identity-block">
+                    <div class="id-row">
+                        <span class="id-label">SYSTEM ID</span>
+                        <span class="id-sep">::</span>
+                        <span class="id-value name-glow">MD HABIBULLAH HAMMAD</span>
+                    </div>
+                    <div class="id-row">
+                        <span class="id-label">CODENAME</span>
+                        <span class="id-sep">::</span>
+                        <span class="id-value codename-glow">CRYOWOLF</span>
+                    </div>
+                    <div class="id-row">
+                        <span class="id-label">STATUS</span>
+                        <span class="id-sep">::</span>
+                        <span class="id-value status-active"><span class="pulse-dot"></span>ACTIVE</span>
+                    </div>
+                    <div class="id-row">
+                        <span class="id-label">ROLE</span>
+                        <span class="id-sep">::</span>
+                        <span class="id-value">IT AND WEB EXECUTIVE</span>
+                    </div>
+                    <div class="id-row">
+                        <span class="id-label">EDUCATION</span>
+                        <span class="id-sep">::</span>
+                        <span class="id-value">BCA STUDENT</span>
+                    </div>
+                    <div class="id-row">
+                        <span class="id-label">DOMAIN</span>
+                        <span class="id-sep">::</span>
+                        <span class="id-value">WEB / CYBERSECURITY / SYSTEMS</span>
+                    </div>
+                </div>
+                <div class="subtitle-cycler">
+                    <span class="subtitle-prefix">&gt;&nbsp;</span>
+                    <span id="subtitle-text" class="subtitle-text"></span><span class="cursor-blink">_</span>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-num" data-target="3">0</span>
+                        <span class="stat-label">YRS EXP</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num" data-target="12">0</span>
+                        <span class="stat-label">PROJECTS</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num" data-target="7">0</span>
+                        <span class="stat-label">DOMAINS</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- MATRIX YEAR COUNTDOWN GRID -->
+    <section id="matrix" class="section matrix-section">
+        <div class="section-header">
+            <div class="sh-line"></div>
+            <h2 class="section-title">TEMPORAL MATRIX // <span class="accent">YEAR PROGRESSION</span></h2>
+            <div class="sh-line"></div>
+        </div>
+        <div class="matrix-container">
+            <div class="matrix-info-bar">
+                <div class="mib-item">
+                    <span class="mib-label">YEAR</span>
+                    <span class="mib-value" id="current-year">2026</span>
+                </div>
+                <div class="mib-item">
+                    <span class="mib-label">ELAPSED</span>
+                    <span class="mib-value" id="days-elapsed">—</span>
+                </div>
+                <div class="mib-item">
+                    <span class="mib-label">TOTAL</span>
+                    <span class="mib-value" id="total-days">365</span>
+                </div>
+            </div>
+
+            <div class="matrix-grid-wrap">
+                <div class="grid-scan"></div>
+                <!-- Flashing days remaining overlay inside the grid -->
+                <div class="matrix-center-overlay">
+                    <div class="mco-label">DAYS REMAINING</div>
+                    <div class="mco-value" id="days-remaining">—</div>
+                    <div class="mco-pulse-ring"></div>
+                </div>
+                <div id="matrix-grid" class="matrix-grid"></div>
+            </div>
+
+            <div class="matrix-legend">
+                <span class="legend-item"><span class="legend-dot passed"></span>ELAPSED</span>
+                <span class="legend-item"><span class="legend-dot today"></span>TODAY</span>
+                <span class="legend-item"><span class="legend-dot dim"></span>REMAINING</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS / MODULES PANEL -->
+    <section id="projects" class="section projects-section">
+        <div class="section-header">
+            <div class="sh-line"></div>
+            <h2 class="section-title">SYSTEM MODULES // <span class="accent">ACTIVE PROJECTS</span></h2>
+            <div class="sh-line"></div>
+        </div>
+        <div class="projects-grid">
+
+            <div class="project-card reveal">
+                <div class="card-header">
+                    <span class="card-id">MOD-001</span>
+                    <span class="card-status active">● ACTIVE</span>
+                </div>
+                <h3 class="card-title">NEXUS WEB PLATFORM</h3>
+                <p class="card-desc">Full-stack web platform with real-time data synchronization, modular architecture,
+                    and advanced user authentication systems.</p>
+                <div class="card-tags"><span class="tag">HTML</span><span class="tag">CSS</span><span
+                        class="tag">JavaScript</span><span class="tag">Node.js</span></div>
+                <div class="card-footer"><span class="card-metric">UPTIME: 99.7%</span><span class="card-arrow">→</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="card-header">
+                    <span class="card-id">MOD-002</span>
+                    <span class="card-status progress">◐ IN PROGRESS</span>
+                </div>
+                <h3 class="card-title">CIPHER SECURITY SUITE</h3>
+                <p class="card-desc">Cybersecurity toolkit for vulnerability scanning, network analysis, and encrypted
+                    communication protocols.</p>
+                <div class="card-tags"><span class="tag">Python</span><span class="tag">Cryptography</span><span
+                        class="tag">Network</span></div>
+                <div class="card-footer"><span class="card-metric">PROGRESS: 67%</span><span class="card-arrow">→</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="card-header">
+                    <span class="card-id">MOD-003</span>
+                    <span class="card-status complete">✓ COMPLETE</span>
+                </div>
+                <h3 class="card-title">DIGITAL IDENTITY SYSTEM</h3>
+                <p class="card-desc">Personal branding and digital identity framework with automated deployment
+                    pipelines and version control integration.</p>
+                <div class="card-tags"><span class="tag">Git</span><span class="tag">CI/CD</span><span
+                        class="tag">Docker</span></div>
+                <div class="card-footer"><span class="card-metric">VERSION: 2.4.1</span><span
+                        class="card-arrow">→</span></div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="card-header">
+                    <span class="card-id">MOD-004</span>
+                    <span class="card-status active">● ACTIVE</span>
+                </div>
+                <h3 class="card-title">PHANTOM UI FRAMEWORK</h3>
+                <p class="card-desc">Custom UI component library built for futuristic interface design with
+                    accessibility-first principles and dark mode optimization.</p>
+                <div class="card-tags"><span class="tag">CSS</span><span class="tag">JavaScript</span><span
+                        class="tag">WCAG</span></div>
+                <div class="card-footer"><span class="card-metric">COMPONENTS: 48</span><span
+                        class="card-arrow">→</span></div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="card-header">
+                    <span class="card-id">MOD-005</span>
+                    <span class="card-status progress">◐ IN PROGRESS</span>
+                </div>
+                <h3 class="card-title">NEURAL DASHBOARD</h3>
+                <p class="card-desc">AI-driven analytics dashboard with real-time data visualization, predictive
+                    modeling, and adaptive interface rendering.</p>
+                <div class="card-tags"><span class="tag">React</span><span class="tag">D3.js</span><span
+                        class="tag">AI/ML</span></div>
+                <div class="card-footer"><span class="card-metric">PROGRESS: 41%</span><span class="card-arrow">→</span>
+                </div>
+            </div>
+
+            <div class="project-card reveal">
+                <div class="card-header">
+                    <span class="card-id">MOD-006</span>
+                    <span class="card-status complete">✓ COMPLETE</span>
+                </div>
+                <h3 class="card-title">ARCNET API GATEWAY</h3>
+                <p class="card-desc">RESTful API gateway with rate limiting, JWT authentication, request logging, and
+                    microservices orchestration.</p>
+                <div class="card-tags"><span class="tag">REST API</span><span class="tag">JWT</span><span
+                        class="tag">Microservices</span></div>
+                <div class="card-footer"><span class="card-metric">REQUESTS/S: 12K</span><span
+                        class="card-arrow">→</span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS / CAPABILITIES PANEL -->
+    <section id="skills" class="section skills-section">
+        <div class="section-header">
+            <div class="sh-line"></div>
+            <h2 class="section-title">SYSTEM CAPABILITIES // <span class="accent">SKILL MATRIX</span></h2>
+            <div class="sh-line"></div>
+        </div>
+        <div class="skills-grid">
+
+            <div class="skill-category reveal">
+                <div class="skill-cat-header"><span class="skill-cat-icon">◈</span><span class="skill-cat-name">FRONTEND
+                        DEVELOPMENT</span></div>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>HTML5 / CSS3</span><span class="skill-pct">92%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="92"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>JavaScript</span><span class="skill-pct">85%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>React / Next.js</span><span class="skill-pct">75%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <div class="skill-cat-header"><span class="skill-cat-icon">◈</span><span class="skill-cat-name">BACKEND
+                        DEVELOPMENT</span></div>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>Node.js / Express</span><span class="skill-pct">78%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="78"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>Python</span><span class="skill-pct">70%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>Databases (SQL/NoSQL)</span><span class="skill-pct">72%</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="72"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <div class="skill-cat-header"><span class="skill-cat-icon">◈</span><span
+                        class="skill-cat-name">CYBERSECURITY</span></div>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>Network Security</span><span class="skill-pct">68%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="68"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>Penetration Testing</span><span class="skill-pct">60%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>Cryptography</span><span class="skill-pct">65%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="65"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <div class="skill-cat-header"><span class="skill-cat-icon">◈</span><span class="skill-cat-name">SYSTEM
+                        ARCHITECTURE</span></div>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>System Design</span><span class="skill-pct">74%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="74"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>Cloud Infrastructure</span><span class="skill-pct">62%</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="62"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>DevOps / CI/CD</span><span class="skill-pct">66%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="66"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <div class="skill-cat-header"><span class="skill-cat-icon">◈</span><span
+                        class="skill-cat-name">PROGRAMMING</span></div>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>JavaScript / TypeScript</span><span class="skill-pct">85%</span>
+                        </div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>Python</span><span class="skill-pct">70%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>C / C++</span><span class="skill-pct">55%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="55"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skill-category reveal">
+                <div class="skill-cat-header"><span class="skill-cat-icon">◈</span><span class="skill-cat-name">DIGITAL
+                        SYSTEMS</span></div>
+                <div class="skill-bars">
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>UI/UX Design</span><span class="skill-pct">80%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>Figma / Prototyping</span><span class="skill-pct">75%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-meta"><span>Motion Design</span><span class="skill-pct">70%</span></div>
+                        <div class="skill-bar-track">
+                            <div class="skill-bar-fill" data-width="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SOCIAL / NETWORK PANEL -->
+    <section id="contact" class="section social-section">
+        <div class="section-header">
+            <div class="sh-line"></div>
+            <h2 class="section-title">NETWORK NODES // <span class="accent">CONNECT</span></h2>
+            <div class="sh-line"></div>
+        </div>
+        <div class="social-grid">
+
+            <a href="https://github.com/habib-git-lab" target="_blank" rel="noopener" class="social-card reveal"
+                aria-label="GitHub">
+                <div class="social-icon"><svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                    </svg></div>
+                <span class="social-label">GITHUB</span>
+                <span class="social-sub">CODE REPOSITORY</span>
+                <div class="social-glow"></div>
+            </a>
+
+            <a href="https://instagram.com/habib_night_rider" target="_blank" rel="noopener" class="social-card reveal"
+                aria-label="Instagram">
+                <div class="social-icon"><svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                    </svg></div>
+                <span class="social-label">INSTAGRAM</span>
+                <span class="social-sub">VISUAL FEED</span>
+                <div class="social-glow"></div>
+            </a>
+
+            <a href="https://www.facebook.com/habibullah.hammad.10" target="_blank" rel="noopener"
+                class="social-card reveal" aria-label="Facebook">
+                <div class="social-icon"><svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                    </svg></div>
+                <span class="social-label">FACEBOOK</span>
+                <span class="social-sub">SOCIAL NETWORK</span>
+                <div class="social-glow"></div>
+            </a>
+
+            <a href="https://x.com/habib_rx22" target="_blank" rel="noopener" class="social-card reveal"
+                aria-label="X Twitter">
+                <div class="social-icon"><svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                    </svg></div>
+                <span class="social-label">X / TWITTER</span>
+                <span class="social-sub">BROADCAST CHANNEL</span>
+                <div class="social-glow"></div>
+            </a>
+
+            <a href="https://wa.me/918822010353" target="_blank" rel="noopener" class="social-card reveal"
+                aria-label="WhatsApp">
+                <div class="social-icon"><svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg></div>
+                <span class="social-label">WHATSAPP</span>
+                <span class="social-sub">+91 88220 10353</span>
+                <div class="social-glow"></div>
+            </a>
+
+            <a href="mailto:hellomdhammad@gmail.com" class="social-card reveal" aria-label="Email">
+                <div class="social-icon"><svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg></div>
+                <span class="social-label">EMAIL</span>
+                <span class="social-sub">hellomdhammad@gmail.com</span>
+                <div class="social-glow"></div>
+            </a>
+
+            <a href="https://linktr.ee/mdhabibullahhammad" target="_blank" rel="noopener" class="social-card reveal"
+                aria-label="Linktree">
+                <div class="social-icon"><svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M7.953 15.066c-.08.163-.08.324 0 .486l2.645 4.52c.08.163.243.243.405.243h2.08c.163 0 .325-.08.406-.243l2.645-4.52c.08-.162.08-.323 0-.486l-2.645-4.52a.47.47 0 00-.406-.242h-2.08a.47.47 0 00-.405.243zm2.08-6.608c-.162 0-.324.08-.405.243L7.953 13.22c-.08.162-.08.324 0 .486l2.645 4.52c.08.163.243.243.405.243h2.08c.163 0 .325-.08.406-.243l2.645-4.52c.08-.162.08-.324 0-.486l-2.645-4.52a.47.47 0 00-.406-.242zM12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm0 18c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z" />
+                    </svg></div>
+                <span class="social-label">LINKTREE</span>
+                <span class="social-sub">ALL LINKS HUB</span>
+                <div class="social-glow"></div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/md-habibullah-hammad" target="_blank" rel="noopener"
+                class="social-card reveal" aria-label="LinkedIn">
+                <div class="social-icon"><svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                    </svg></div>
+                <span class="social-label">LINKEDIN</span>
+                <span class="social-sub">PROFESSIONAL NETWORK</span>
+                <div class="social-glow"></div>
+            </a>
+
+            <a href="https://www.reddit.com/user/Cryo0xDead" target="_blank" rel="noopener" class="social-card reveal"
+                aria-label="Reddit">
+                <div class="social-icon"><svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z" />
+                    </svg></div>
+                <span class="social-label">REDDIT</span>
+                <span class="social-sub">Cryo0xDead</span>
+                <div class="social-glow"></div>
+            </a>
+
+        </div>
+    </section>
+
+    <!-- MOTIVATION / SYSTEM LOG PANEL -->
+    <section id="motivation" class="section motivation-section">
+        <div class="section-header">
+            <div class="sh-line"></div>
+            <h2 class="section-title">SYSTEM LOG // <span class="accent">DIRECTIVE</span></h2>
+            <div class="sh-line"></div>
+        </div>
+        <div class="motivation-container reveal">
+            <div class="log-panel">
+                <div class="log-header">
+                    <span class="log-indicator blink"></span>
+                    <span>SYSTEM_LOG.txt — CLASSIFIED</span>
+                    <span class="log-time" id="log-time">--:--:--</span>
+                </div>
+                <div class="log-body">
+                    <div class="log-line"><span class="log-key">IDENTITY</span><span class="log-sep">:</span><span
+                            class="log-val">CRYOWOLF // MD HABIBULLAH HAMMAD</span></div>
+                    <div class="log-line"><span class="log-key">STATUS</span><span class="log-sep">:</span><span
+                            class="log-val status-active"><span class="pulse-dot"></span>OPERATIONAL</span></div>
+                    <div class="log-line"><span class="log-key">CLEARANCE</span><span class="log-sep">:</span><span
+                            class="log-val">LEVEL 7 — ARCHITECT</span></div>
+                    <div class="log-line log-spacer"></div>
+                    <div class="log-line"><span class="log-key">MESSAGE</span><span class="log-sep">:</span></div>
+                    <div class="log-quote">
+                        "I am building intelligent systems that represent precision, evolution, and digital identity.
+                        Every system I create is a step toward the future — a declaration that intelligence and design
+                        can coexist in perfect harmony."
+                    </div>
+                    <div class="log-line log-spacer"></div>
+                    <div class="log-line"><span class="log-key">DIRECTIVE</span><span class="log-sep">:</span><span
+                            class="log-val">BUILD. EVOLVE. TRANSCEND.</span></div>
+                    <div class="log-line"><span class="log-key">SIGNATURE</span><span class="log-sep">:</span><span
+                            class="log-val codename-glow">CRYOWOLF</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-left">
+                <span class="footer-logo">CRYOWOLF</span>
+                <span class="footer-sub">MD HABIBULLAH HAMMAD</span>
+            </div>
+            <div class="footer-center">
+                <span class="footer-coord">SYS://ONLINE</span>
+                <span class="footer-coord" id="footer-date">--.--.----</span>
+            </div>
+            <div class="footer-right">
+                <span class="footer-copy">© <span id="footer-year">2026</span> CRYOWOLF. ALL RIGHTS RESERVED.</span>
+            </div>
+        </div>
+        <div class="footer-bar"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
